@@ -3,7 +3,7 @@
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 DataService ds = new DataService();
 
-Console.Title = "Спринт 1 | Выполнено by Денисов Л. Д. | АСОиУб-26-1";
+Console.Title = "Спринт 3 | Выполнено by Денисов Л. Д. | АСОиУб-26-1";
 Console.WriteLine("*************************************************************************************************");
 Console.WriteLine("* Спринт #3                                                                                     *");
 Console.WriteLine("* Тема: Оператор цикла for                                                                      *");
