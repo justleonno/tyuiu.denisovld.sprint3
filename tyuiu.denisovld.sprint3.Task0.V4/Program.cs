@@ -1,5 +1,5 @@
 ﻿using tyuiu.denisovld.sprint3.Task0.V4.Lib;
-namespace tyuiu.denisovld.sprint1.Task1.V6
+namespace tyuiu.denisovld.sprint3.Task0.V4
 {
     internal class Program
     {

@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using tyuiu.cources.programming.interfaces.Sprint2;
-using tyuiu.cources.programming.interfaces.Sprint3;
+﻿using tyuiu.cources.programming.interfaces.Sprint3;
 namespace tyuiu.denisovld.sprint3.Task0.V4.Lib
 {
     public class DataService : ISprint3Task0V4
