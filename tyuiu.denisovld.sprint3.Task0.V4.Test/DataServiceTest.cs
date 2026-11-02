@@ -3,7 +3,7 @@ using tyuiu.denisovld.sprint3.Task0.V4.Lib;
 namespace tyuiu.denisovld.sprint3.Task0.V4.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public class DataServiceTest
     {
         [TestMethod]
         public void TestMethod1()
