@@ -9,7 +9,7 @@ namespace tyuiu.denisovld.sprint3.Task1.V1.Lib
             int k = startValue;
             while (k <= stopValue)
             {
-                res *= Math.Pow((3/k), -2);
+                res = res * Math.Pow((3/Convert.ToDouble(k)), -2);
                 k++;
             }
             return Math.Round(res, 3);

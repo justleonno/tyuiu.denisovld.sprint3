@@ -17,11 +17,17 @@ Console.WriteLine("*                                                            
 Console.WriteLine("*************************************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                              *");
 Console.WriteLine("*************************************************************************************************");
+int x;
+int y;
+Console.WriteLine("Введите начальное значение");
+x = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите конечное значение");
+y = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("*************************************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                    *");
 Console.WriteLine("*************************************************************************************************");
-Console.WriteLine(ds.GetMultiplySeries(1, 1));
+Console.WriteLine(ds.GetMultiplySeries(x, y));
 
 Console.ReadKey();
 
