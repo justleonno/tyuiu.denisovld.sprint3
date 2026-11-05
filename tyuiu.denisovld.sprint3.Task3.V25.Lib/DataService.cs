@@ -3,19 +3,29 @@ namespace tyuiu.denisovld.sprint3.Task3.V25.Lib
 {
     public class DataService : ISprint3Task3V25
     {
-        public int GetMinCharCount(string value, char item)
+        public int GetMinCharCount(string value, char item) ///lalau aaa lolouu uudd u u
         {
-            char pres = Convert.ToChar(" ");
+            string pres = " ";
             int count = 0;
+            int lastcount = 0;
             foreach (char c in value)
             {
-                if (c == 'u' & c == pres)
+                if (c == item & c == pres[^1])
                 {
-                    count += 2;
+                    count++;
                 }
-                pres = c;
+                else
+                {
+                    if (count > 0)
+                    {
+                        lastcount = count;
+                    }
+                    count = 0;
+                    pres = " ";
+                }
+                pres += c;
             }
-            return count;
+            return lastcount;
         }
     }
 }

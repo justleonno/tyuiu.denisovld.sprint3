@@ -11,7 +11,7 @@ namespace tyuiu.denisovld.sprint3.Task3.V25.Test
         {
             DataService ds = new DataService();
             string str = "lalau aaa lolouu uudd u u";
-            int res = 4;
+            int res = 1;
             int lol = ds.GetMinCharCount(str, 'u');
             Assert.AreEqual(res, lol);
         }
